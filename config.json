@@ -1,0 +1,43 @@
+{
+   "name": "Blast Down Chart",
+   "className": "CustomApp",
+   "server": "https://rally1.rallydev.com",
+   "sdk": "2.0rc3",
+   "javascript": [
+      "bower_components/angular/angular.min.js",
+      "bower_components/jquery/dist/jquery.min.js",
+      "bower_components/moment/min/moment.min.js",
+      "scripts/melonJS-1.0.1.js",
+      "game/WsapiAggregator.js",
+      "game/js/point.js",
+      "game/js/game.js",
+      "game/js/resources.js",
+      "game/js/PositionManager.js",
+      "game/js/ColorManager.js",
+      "game/js/entities/labelEntity.js",
+      "game/js/entities/rallyHunterEntity.js",
+      "game/js/entities/rallyShipEntity.js",
+      "game/js/entities/playerEntity.js",
+      "game/js/entities/shipEntity.js",
+      "game/js/entities/explosionEntity.js",
+      "game/js/entities/bulletEntity.js",
+      "game/js/screens/victory.js",
+      "game/js/screens/title.js",
+      "game/js/screens/play.js",
+      "App/App.js",
+      "App/angularApp.js",
+      "App/LookbackService.js",
+      "realtime/reconnecting-websocket.js",
+      "realtime/alm-realtime.js",
+      "realtime/RealtimeDataHandler.js",
+      "realtime/RealTimeDataService.js",
+      "game/GameEventHandler.js"
+   ],
+   "html": [
+      "App/body.html"
+   ],
+   "css": [
+      "game/game.css",
+      "App/app.css"
+   ]
+}
